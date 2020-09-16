@@ -1,4 +1,3 @@
-// file path: src/profile/gateway.js
 
 export async function fetchUser(userId) {
     const response = await fetch(`https://api.github.com/users/${userId}`);
