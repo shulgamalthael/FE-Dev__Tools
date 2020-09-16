@@ -1,5 +1,4 @@
 import './profile.scss';
-import './profile.css';
 
 export default ({ name, location }) => {
     const nameElem = document.querySelector('.profile__name');
